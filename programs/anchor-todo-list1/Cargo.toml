@@ -1,12 +1,12 @@
 [package]
-name = "todo-list-app"
+name = "anchor-todo-list1"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "todo_list_app"
+name = "anchor_todo_list1"
 
 [features]
 no-entrypoint = []
@@ -16,4 +16,4 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.28.0"
+anchor-lang = "0.29.0"
